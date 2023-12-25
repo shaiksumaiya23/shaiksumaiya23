@@ -1,54 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>forms</title>
-    <style>
-        h1
-        {
-            text-align: center;
-        } 
-    </style>
+    <title>Forms</title>
 </head>
+
 <body>
-    <h1>My form</h1>
-    <form action="flile.php" ">
-     <div>
-        <label for="Fnam">First Name:</label>  
-        <input type="text" id="Fnam" placeholder="Enter your First Name" value="sifu"/> 
-     <div>
-         <br>   
-     <div>
-         <label for="Lnam">last Name:</label>
-         <input type="text" id="Lnam" placeholder="Enter your last Name"/>
-     </div>
-        <br>
-     <div>
-      Email : <input type="email" placeholder="Enter your Email" name="Email" /> 
-     </div>
-        <br>
-    <div>
-       password : <input type="password" placeholder="Enter your password" name="pswd"/>
-    </div>
-    <br>
-    <div>
-        <label for="Age">Age</label>
-        <input type="number"  id="age" placeholder="Enter your age">
-    </div>
-    <br>
-    <div>
-        <label for="clr">Date of Birth</label>
-        <input type="color" id="color" name="color" />
-    </div>
-    <br>
-    <!--<input type= "image"-->
-    <img src="https://images.unsplash.com/photo-1439436556258-1f7fab1bfd4f?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YW5pbWF0aW9ufGVufDB8fDB8fHww" alt="image">
-    <div>
+    <h1>Forms</h1>
+    <form action="google.com" method="post">
+        <label for="Name">Name:</label>
+        <input type="text" name="Name" id="Name" placeholder="Enter your Name"><br><br>
+        <label for="em">Email:</label>
+        <input type="email" name="Emal" id="em" placeholder="Enter your Email"><br><br>
+        <label for="phono">Phone Number:</label>
+        <input type="number" name="phnno" id="phnno" placeholder="Enter your phone number"><br><br>
+        <label for="password">Password:</label>
+        <input type="password" name="Password" id="pass" placeholder="Enter your password"><br><br>
+        <label for="dob">DOB</label>
+        <input type="date" name="DOB" id="dob"><br><br>
+        <label for="sign">Signatutre</label>
+        <input type="file" name="sign" id="sign"><br><br>
+        <input type="color" name="" id=""><br>
+        <input type="time" name="" id=""><br><br>
+        <input type="url" name="" id=""><br><br>
+        <input type="range" name="" id=""><br><br>
+        <input type="week" name="" id=""><br><br>
+        <input type="hidden" name=""><br><br>
+        <input type="month" name="" id=""><br><br>
+        Gender:<input type="radio" name="Gender" id="male">
+        <label for="male">Male</label>
+        <input type="radio" name="Gender" id="Female">
+        <label for="Female">Female</label>
+        <input type="submit">
+        <input type="reset" >
 
-    </div>
-    <input type="submit">
-    <input type="reset">
 
+
+    </form>
 </body>
+
 </html>
